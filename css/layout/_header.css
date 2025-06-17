@@ -34,7 +34,9 @@
 	z-index: 1;
  }
  
-
+ .nav__link{
+	font-size: 0.4rem;
+ }
 
 
 .modal-nav__sub-menu {

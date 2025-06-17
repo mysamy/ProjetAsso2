@@ -105,7 +105,7 @@
  /* SECTION 5 SERVICES-CAROUSEL */
  .services {
  	height: 100vh;
- 	display: flex;
+ 	display: none;
  	background-color: var(--BG-COLOR2);
  	flex-direction: column;
  	justify-content: center;
@@ -143,14 +143,14 @@
  	flex-direction: column;
  	align-items: center;
  	padding: var(--PADDING);
- 	height: 87vh;
+ 	height: auto;
  	justify-content: center;
  	background-color: var(--BG-COLOR2);
 	font-size: 2rem;
  }
 
  .contact__title {
- 	font-size: 0.9em;
+ 	font-size: 0.4em;
  	font-weight: 100;
  }
  

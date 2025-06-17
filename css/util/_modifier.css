@@ -1,9 +1,11 @@
 .logo--footer {
 	width: 100%;
 }
+
 .logo--title--advantages {
 	color: var(--BG-COLOR);
 }
+
 .title-icon--hidden-lg {
 	display: none;
 }
@@ -17,17 +19,18 @@
 	width: 850px;
 	font-size: 2rem;
 }
-.title-icon--contact {
-	width: 1200px;
+
+
+.title-icon--hero {
+	width: 1100px;
 }
 
-.card-logo--solution {
-	height: 50%;
-	width: 100%;
+.visual-card__img--solution {
+	width: 80%;
+	height: 80%;
+
 }
-.card-logo__img--solution {
-	width: 550px;
-}
+
 .button--arrow {
 	padding: 0;
 	border: 1px solid var(--HIGHLIGHT-COLOR2);
@@ -37,4 +40,7 @@
 
 .button--card {
 	border-color: var(--BG-COLOR);
+}
+.title-icon--visible-sm {
+	display: none;
 }

@@ -2,7 +2,7 @@
 
 .footer {
 	display: flex;
-	height: 75vh;
+	height: 100%;
 	background-color: var(--BG-COLOR);
 	font-size: 0.6em;
 	align-items: center;
@@ -91,9 +91,12 @@
 
 .legal {
 	display: flex;
+	gap: 0.4rem;
 	flex-direction: column;
 }
-
+.legal__link {
+	font-size: 0.6rem;
+}
 .form__button {
 	font-size: 1.2em;
 	color: var(--FONT-COLOR);
@@ -109,5 +112,6 @@
 }
 
 .footer__copyright {
-	font-size: 0.6em;
+	font-size: 0.5em;
+	text-align: center;
 }
